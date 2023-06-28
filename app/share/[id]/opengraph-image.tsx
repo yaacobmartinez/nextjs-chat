@@ -66,18 +66,6 @@ export default async function Image({ params }: ImageProps) {
     ),
     {
       ...size,
-      fonts: [
-        {
-          name: 'Arial',
-          style: 'normal',
-          weight: 400
-        },
-        {
-          name: 'Arial',
-          style: 'normal',
-          weight: 700
-        }
-      ]
     }
   )
 }
